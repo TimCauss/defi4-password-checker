@@ -47,9 +47,6 @@ function StrongCheck() {
   }
 }
 
-console.log(/[A-Z]/.test(passInputElem.value));
-
 passInputElem.addEventListener("keyup", Checking);
 passInputElem.addEventListener("keyup", StrongCheck);
-
 checkInputElem.addEventListener("keyup", Checking);
